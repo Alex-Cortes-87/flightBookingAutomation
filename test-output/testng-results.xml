@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Globant Selenium Test" duration-ms="28089" started-at="2020-02-13T00:03:20Z" finished-at="2020-02-13T00:03:48Z">
+    <groups>
+    </groups>
+    <test name="Page Object Test" duration-ms="28089" started-at="2020-02-13T00:03:20Z" finished-at="2020-02-13T00:03:48Z">
+      <class name="com.alex.training.app.SeleniumBasicTest">
+        <test-method status="PASS" signature="beforeSuite(java.lang.String)[pri:0, instance:com.alex.training.app.SeleniumBasicTest@26be92ad]" name="beforeSuite" is-config="true" duration-ms="42907" started-at="2020-02-13T00:02:37Z" finished-at="2020-02-13T00:03:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="swa()[pri:0, instance:com.alex.training.app.SeleniumBasicTest@26be92ad]" name="swa" duration-ms="27816" started-at="2020-02-13T00:03:20Z" finished-at="2020-02-13T00:03:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- swa -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.alex.training.app.SeleniumBasicTest@26be92ad]" name="afterSuite" is-config="true" duration-ms="3166" started-at="2020-02-13T00:03:52Z" finished-at="2020-02-13T00:03:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.alex.training.app.SeleniumBasicTest -->
+    </test> <!-- Page Object Test -->
+  </suite> <!-- Globant Selenium Test -->
+</testng-results>

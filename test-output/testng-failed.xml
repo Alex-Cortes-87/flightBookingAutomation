@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Globant Selenium Test]">
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="5" name="Page Object Test(failed)">
+    <classes>
+      <class name="com.alex.training.app.SeleniumBasicTest">
+        <methods>
+          <include name="swa"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.alex.training.app.SeleniumBasicTest -->
+    </classes>
+  </test> <!-- Page Object Test(failed) -->
+</suite> <!-- Failed suite [Globant Selenium Test] -->

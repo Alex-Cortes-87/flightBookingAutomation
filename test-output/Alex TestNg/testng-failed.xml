@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Alex TestNg]">
+  <test thread-count="5" name="Basic Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="message" value="I&#039;m a message"/>
+    <classes>
+      <class name="com.alex.training.app.SeleniumBasicTest">
+        <methods>
+          <include name="doGooglesearch"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.alex.training.app.SeleniumBasicTest -->
+    </classes>
+  </test> <!-- Basic Test(failed) -->
+</suite> <!-- Failed suite [Alex TestNg] -->
